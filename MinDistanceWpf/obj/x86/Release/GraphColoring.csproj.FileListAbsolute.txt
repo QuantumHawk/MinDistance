@@ -1,0 +1,16 @@
+C:\Users\User\Desktop\MinDistance\MinDistanceWpf\bin\Release\MinDistanceWpf.exe
+C:\Users\User\Desktop\MinDistance\MinDistanceWpf\bin\Release\MinDistanceWpf.pdb
+C:\Users\User\Desktop\MinDistance\MinDistanceWpf\obj\x86\Release\GraphColoring.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\MinDistance\MinDistanceWpf\obj\x86\Release\DistanceDialog.baml
+C:\Users\User\Desktop\MinDistance\MinDistanceWpf\obj\x86\Release\MainWindow.baml
+C:\Users\User\Desktop\MinDistance\MinDistanceWpf\obj\x86\Release\DistanceDialog.g.cs
+C:\Users\User\Desktop\MinDistance\MinDistanceWpf\obj\x86\Release\MainWindow.g.cs
+C:\Users\User\Desktop\MinDistance\MinDistanceWpf\obj\x86\Release\App.g.cs
+C:\Users\User\Desktop\MinDistance\MinDistanceWpf\obj\x86\Release\MinDistanceWpf_MarkupCompile.cache
+C:\Users\User\Desktop\MinDistance\MinDistanceWpf\obj\x86\Release\MinDistanceWpf.g.resources
+C:\Users\User\Desktop\MinDistance\MinDistanceWpf\obj\x86\Release\GraphColoring.Properties.Resources.resources
+C:\Users\User\Desktop\MinDistance\MinDistanceWpf\obj\x86\Release\GraphColoring.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\MinDistance\MinDistanceWpf\obj\x86\Release\MinDistanceWpf.exe
+C:\Users\User\Desktop\MinDistance\MinDistanceWpf\obj\x86\Release\MinDistanceWpf.pdb
+D:\C#\calc delphi\MinDistance\MinDistanceWpf\obj\x86\Release\MinDistanceWpf.exe
+D:\C#\calc delphi\MinDistance\MinDistanceWpf\obj\x86\Release\MinDistanceWpf.pdb

@@ -1,0 +1,16 @@
+C:\Users\s.yastrebova\Desktop\MinDistance\MinDistanceWpf\obj\x86\Debug\MinDistanceWpf.csprojResolveAssemblyReference.cache
+C:\Users\s.yastrebova\Desktop\MinDistance\MinDistanceWpf\obj\x86\Debug\DistanceDialog.baml
+C:\Users\s.yastrebova\Desktop\MinDistance\MinDistanceWpf\obj\x86\Debug\MainWindow.baml
+C:\Users\s.yastrebova\Desktop\MinDistance\MinDistanceWpf\obj\x86\Debug\DistanceDialog.g.cs
+C:\Users\s.yastrebova\Desktop\MinDistance\MinDistanceWpf\obj\x86\Debug\MainWindow.g.cs
+C:\Users\s.yastrebova\Desktop\MinDistance\MinDistanceWpf\obj\x86\Debug\App.g.cs
+C:\Users\s.yastrebova\Desktop\MinDistance\MinDistanceWpf\obj\x86\Debug\MinDistanceWpf_MarkupCompile.cache
+C:\Users\s.yastrebova\Desktop\MinDistance\MinDistanceWpf\obj\x86\Debug\MinDistanceWpf.g.resources
+C:\Users\s.yastrebova\Desktop\MinDistance\MinDistanceWpf\obj\x86\Debug\MinDistanceWpf.Properties.Resources.resources
+C:\Users\s.yastrebova\Desktop\MinDistance\MinDistanceWpf\obj\x86\Debug\MinDistanceWpf.csproj.GenerateResource.Cache
+C:\Users\s.yastrebova\Desktop\MinDistance\MinDistanceWpf\bin\Debug\MinDistanceWpf.exe
+C:\Users\s.yastrebova\Desktop\MinDistance\MinDistanceWpf\bin\Debug\MinDistanceWpf.pdb
+C:\Users\s.yastrebova\Desktop\MinDistance\MinDistanceWpf\obj\x86\Debug\MinDistanceWpf.exe
+C:\Users\s.yastrebova\Desktop\MinDistance\MinDistanceWpf\obj\x86\Debug\MinDistanceWpf.pdb
+C:\Users\User\Desktop\MinDistance\MinDistanceWpf\obj\x86\Debug\MinDistanceWpf.exe
+C:\Users\User\Desktop\MinDistance\MinDistanceWpf\obj\x86\Debug\MinDistanceWpf.pdb

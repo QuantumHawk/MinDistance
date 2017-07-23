@@ -1,0 +1,35 @@
+﻿<Window x:Class="GraphColoring.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GraphColoring" Height="513" Width="696">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="169" />
+            <RowDefinition />
+        </Grid.RowDefinitions>
+        <Button Content="Restart" Height="23" HorizontalAlignment="Right" Margin="0,9,10,0" Name="restartBtn" VerticalAlignment="Top" Width="75" Click="restartBtn_Click" />
+        <Button Content="Clear" Height="23" HorizontalAlignment="Right" Margin="0,9,92,0" Name="clearBtn" VerticalAlignment="Top" Width="75" Click="clearBtn_Click" />
+        <StatusBar Grid.Row="1" Height="25" Name="statusBar1" VerticalAlignment="Bottom" />
+        <Canvas Grid.Row="1" Name="drawingCanvas" Margin="0,0,0,23" Background="WhiteSmoke" MouseUp="drawingCanvas_MouseUp" SnapsToDevicePixels="True" />
+        <Label Content="Click on the canvas to create a node." Grid.Row="1" Height="25" HorizontalAlignment="Left" Name="statusLabel" VerticalAlignment="Bottom" Width="204" />
+        <Button x:Name="Button_Greedy" Content="Greedy Algorithm" HorizontalAlignment="Left" Margin="163,10,0,0" VerticalAlignment="Top" Width="107" Click="Button_Greedy_Click" Height="22"/>
+        <Button x:Name="Button_Brutal" Content="Brute Force" HorizontalAlignment="Left" Margin="298,10,0,0" VerticalAlignment="Top" Width="75" Click="Button_Brutal_Click" RenderTransformOrigin="-0.093,0.682" Height="22"/>
+        <Button x:Name="Button_GA" Content="Genetic Algorithm" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="119" Click="Button_GA_Click" Height="22"/>
+        <ListView x:Name="listView" Margin="298,48,0,0" ItemsSource="{Binding}" MouseRightButtonDown="listView_MouseRightButtonDown">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Algorithm" DisplayMemberBinding="{Binding Algorithm}"/>
+                    <GridViewColumn Header="Vertex" DisplayMemberBinding="{Binding Vertex}"/>
+                    <GridViewColumn Header="Edge Grade" DisplayMemberBinding="{Binding Edge}"/>
+                    <GridViewColumn Header="Time (ms)" DisplayMemberBinding="{Binding Time}"/>
+                    <GridViewColumn Header="Iterations (times)" DisplayMemberBinding="{Binding Iterations}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Label Content="Colours count" HorizontalAlignment="Left" Margin="10,57,0,88" Width="93"/>
+        <TextBox x:Name="tbCol" Margin="163,57,0,91" TextWrapping="Wrap" HorizontalAlignment="Left" Width="107"/>
+        <Label Content="Population size" HorizontalAlignment="Left" Margin="10,104,0,28" Width="93"/>
+        <TextBox x:Name="tbPop" Margin="163,104,0,44" TextWrapping="Wrap" HorizontalAlignment="Left" Width="107"/>
+        <Button x:Name="bHelp" Content="HELP" HorizontalAlignment="Left" Margin="10,142,0,0" VerticalAlignment="Top" Width="75" Click="bHelp_Click"/>
+    </Grid>
+</Window>

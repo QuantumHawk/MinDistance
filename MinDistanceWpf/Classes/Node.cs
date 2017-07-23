@@ -1,0 +1,126 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Text;
+using System.Windows;
+using System.Windows.Media;
+
+namespace GraphColoring.Classes
+{
+    public class Node:IComparable<Node>
+    {
+        private Point _drawingLocation;
+        private Point _center;
+        private string _label;
+        private int _mark;
+        private double _diameter;
+        private bool _visited;
+        private double _totalCost;
+
+        private List<Edge> _edges;
+        private Edge _edgeCameFrom;
+        private SolidColorBrush _color;
+
+        public Node(Point location, string label, double diameter, int mark, SolidColorBrush color)
+        {
+            this._drawingLocation = location;
+            this._label = label;
+            this._diameter = diameter;
+            this._mark = mark;
+            this._color = color;
+
+            _visited = false;
+            _edges = new List<Edge>();
+            _totalCost = -1;
+        }
+
+        public Node(Point location, Point center, string label, double diameter, int mark, SolidColorBrush color)
+            :this(location,label,diameter, mark, color)
+        {
+            this._center = center;
+        }
+
+        public Point Location
+        {
+            get { return _drawingLocation; }
+        }
+
+        public Point Center
+        {
+            get { return _center; }
+            set { this._center = value; }
+        }
+
+        public SolidColorBrush Color
+        {
+            get { return _color; }
+            set { this._color = value; }
+        }
+
+        public double Diameter
+        {
+            get { return _diameter; }
+        }
+
+        public string Label
+        {
+            get { return _label; }
+        }
+
+        public int Mark
+        {
+            get { return _mark; }
+        }
+
+        public double TotalCost
+        {
+            get { return _totalCost; }
+            set { this._totalCost = value; }
+        }
+
+        public List<Edge> Edges
+        {
+            get { return this._edges; }
+            set { this._edges = value; }
+        }
+
+        public Edge EdgeCameFrom
+        {
+            get { return this._edgeCameFrom; }
+            set { this._edgeCameFrom = value; }
+        }
+
+        /// <summary>
+        /// Calculates whether the node contains a specific point.
+        /// </summary>
+        /// <param name="p">The point for which we are checking</param>
+        /// <returns>true or false</returns>
+        public bool HasPoint(Point p)
+        {
+            double xSq = Math.Pow(p.X - _center.X,2);
+            double ySq = Math.Pow(p.Y - _center.Y,2);
+            double dist = Math.Sqrt(xSq + ySq);
+
+            return (dist <= (_diameter/2));
+        }
+
+        public bool Visited
+        {
+            get { return _visited; }
+            set { this._visited = value; }
+        }
+
+        public int CompareTo(Node n)
+        {
+            return this._totalCost.CompareTo(n.TotalCost);
+        }
+
+        public void Reset()
+        {
+            _visited = false;
+            _edgeCameFrom = null;
+            _totalCost = -1;
+        }
+
+       
+    }
+}
